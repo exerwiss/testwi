@@ -19,8 +19,6 @@ test - test files
 
 Improvements
 
-- Make the code more flexible. Currently fixed at 8 points per day and 5 days per week. 
-  No reason for this, have made them variables, but need to adapt to input data, or set at source.
 - htmlprocess.js,processDayTimeWeatherHTML is fixed order and format. 
   Wish to remove individual item into functions, will allow more flexiblity
 

@@ -1,0 +1,50 @@
+.weathertable {
+border-width : 1px;
+border-style : solid;
+background-color : #30A0FF;
+}
+.weathertable td {
+border-width : 1px;
+border-style : solid;
+}
+.weathertable th {
+border-width : 1px;
+border-style : solid;
+background-color : lightgray;
+}
+.temp {
+  font-weight : bold;
+  font-size : +105%;
+}
+
+.lowtemp {
+  font-size : +75%;
+  vertical-align : sub;
+}
+.hightemp {
+  font-size : +75%;
+  vertical-align : super;
+}
+.description {
+  text-align : center;
+  font-size : 105%;
+  font-weight : bold;
+  vertical-align : middle;
+
+}
+.winddir {
+  z-index:0;
+  position:relative;
+  display:inline;
+}
+.winddir2 {
+  z-index:1;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+.city {
+  font-size : 120%;
+  font-weight : bold;
+
+}
